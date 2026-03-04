@@ -12,13 +12,13 @@ const projectsData = [
     repoUrl: "https://github.com/mohammadjafarsaberi/react-map",
   },
   {
-    title: "Password Generator",
+    title: "Teez Chat",
     description:
-      "A secure password generator with customizable options (length, character types). Built with vanilla JavaScript and CSS.",
-    imageUrl: "/password-generator.jpg",
-    tags: ["JavaScript", "CSS", "Security"],
+      "A realtime chat starter built with Laravel, Inertia, and React, using Tailwind CSS and SQLite as a modern baseline for interactive applications.",
+    imageUrl: "/teezChat.JPG",
+    tags: ["Laravel 12", "React 19", "Inertia", "Tailwind CSS", "SQLite"],
     liveUrl: null,
-    repoUrl: "https://github.com/mohammadjafarsaberi/password-generator",
+    repoUrl: "https://github.com/mohammadjafarsaberi/TeezChat",
   },
   {
     title: "Portfolio Website",
@@ -29,6 +29,16 @@ const projectsData = [
     liveUrl: process.env.NEXT_PUBLIC_SITE_URL || '',
     repoUrl: "https://github.com/mohammadjafarsaberi/my-portfolio",
   },
+  {
+    title: "Password Generator",
+    description:
+      "A secure password generator with customizable options (length, character types). Built with vanilla JavaScript and CSS.",
+    imageUrl: "/password-generator.jpg",
+    tags: ["JavaScript", "CSS", "Security"],
+    liveUrl: null,
+    repoUrl: "https://github.com/mohammadjafarsaberi/password-generator",
+  },
+
 ];
 
 const Projects: React.FC = () => {
