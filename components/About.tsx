@@ -13,6 +13,8 @@ const skills = [
   { name: "Bootstrap", icon: <Palette className="h-5 w-5 text-purple-400" /> },
   { name: "PHP", icon: <Server className="h-5 w-5 text-indigo-400" /> },
   { name: "Laravel", icon: <Server className="h-5 w-5 text-red-500" /> },
+  { name: "C#", icon: <Code className="h-5 w-5 text-violet-500" /> },
+  { name: "ASP.NET Core", icon: <Settings className="h-5 w-5 text-indigo-500" /> },
   { name: "MySQL", icon: <Database className="h-5 w-5 text-blue-600" /> },
   { name: "PostgreSQL", icon: <Database className="h-5 w-5 text-sky-700" /> },
   { name: "SQLite", icon: <Database className="h-5 w-5 text-gray-500" /> },
@@ -65,7 +67,7 @@ const About: React.FC = () => {
              </div>
              <div className="p-6 bg-background rounded-lg shadow-md">
                 <Users className="h-10 w-10 text-teal-400 mx-auto mb-3" />
-                <h4 className="text-xl font-semibold mb-2">User-Centricity</h4>
+                <h4 className="text-xl font-semibold mb-2">User Focus</h4>
                 <p className="text-muted-foreground text-sm">Building products that are intuitive, accessible, and provide real value.</p>
              </div>
              <div className="p-6 bg-background rounded-lg shadow-md">
