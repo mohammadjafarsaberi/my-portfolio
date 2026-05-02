@@ -18,7 +18,7 @@ const projectsData = [
     imageUrl: "/teezChat.JPG",
     tags: ["Laravel 12", "React 19", "Inertia", "Tailwind CSS", "SQLite"],
     liveUrl: null,
-    repoUrl: "https://github.com/mohammadjafarsaberi/TeezChat",
+    repoUrl: "https://github.com/mohammadjafarsaberi/teez-chat",
   },
   {
     title: "Portfolio Website",
